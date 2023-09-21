@@ -124,17 +124,21 @@ for row in rows:
 col1, col2 = st.columns(2)
 with col1:
     shenti_harm = st.text_input('酒精对身体的危害',"身体")
+
+with col2:
+    danao_harm = st.text_input('酒精对大脑的危害',"大脑")
+    st.write('酒精的热量 = 42卡/100ml')
+    jiujing_reliang = 42
+
+col1, col2 = st.columns(2)
+with col1:
     st.text('酒精的危害')
     harm=''
     for n in alcohol_harm_list:
         harm= harm+n+'!  '
     #st.write(harm)
     st.error(harm,icon="🚨")
-    
-
-
 with col2:
-    danao_harm = st.text_input('酒精对大脑的危害',"大脑")
     st.write('酒精的热量 = 42卡/100ml')
     jiujing_reliang = 42
 
