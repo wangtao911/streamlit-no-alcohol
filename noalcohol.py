@@ -128,7 +128,8 @@ with col1:
     harm=''
     for n in alcohol_harm_list:
         harm= harm+n+'!  '
-    st.write(harm)
+    #st.write(harm)
+    st.error(harm,icon="🚨")
     
 
 
