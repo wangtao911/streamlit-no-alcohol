@@ -8,7 +8,7 @@ import datetime
 conn = sqlite3.connect('no-alcohol.db')
 cur =  conn.cursor()
 
-if True:
+if False:
     try:
         table_name = 'no_alcohol'
         cur.execute(f'DROP TABLE IF EXISTS {table_name}')
