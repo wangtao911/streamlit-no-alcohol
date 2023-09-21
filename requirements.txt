@@ -1,0 +1,7 @@
+graphviz
+streamlit
+pandas
+numpy
+plotly
+streamlit_tags
+streamlit_agraph
