@@ -191,7 +191,7 @@ with col1:
         cur.execute(sql_text_4,(today,chufa_yuanyin,xin_chufa_yuanyin,shenti_harm,danao_harm,chenggong_yuanyin,shibai_yuanyin,duo_he_le_duoshao,shao_he_le_duoshao))
 
     else:
-        st.write('Goodbye')
+        st.write('少喝一口是一口')
 
 with col2:
     st.button("Reset")
