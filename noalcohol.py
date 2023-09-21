@@ -138,7 +138,8 @@ with col1:
     #st.write(harm)
     st.error(harm,icon="🚨")
 with col2:
-    st.write('酒精的热量 = 42卡/100ml')
+    st.write('酒精的热量')
+    st.error('42卡/100ml，2杯=5公里',icon="🚨")
     jiujing_reliang = 42
 
 col1, col2 = st.columns(2)
