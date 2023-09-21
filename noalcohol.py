@@ -199,7 +199,7 @@ with col1:
         st.write('少喝一口是一口')
 
 with col2:
-    st.button("Reset")
+    #st.button("Reset")
 
 
 
