@@ -127,8 +127,7 @@ with col1:
 
 with col2:
     danao_harm = st.text_input('酒精对大脑的危害',"大脑")
-    st.write('酒精的热量 = 42卡/100ml')
-    jiujing_reliang = 42
+
 
 col1, col2 = st.columns(2)
 with col1:
