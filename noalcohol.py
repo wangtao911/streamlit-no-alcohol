@@ -200,6 +200,7 @@ with col1:
 
 with col2:
     #st.button("Reset")
+    pass
 
 
 
