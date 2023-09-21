@@ -5,7 +5,7 @@ import sqlite3
 import datetime
 
 # create a database
-conn = sqlite3.connect('no-alcohol.db')
+conn = sqlite3.connect('streamlit-no-alcohol/no-alcohol.db')
 cur =  conn.cursor()
 
 if False:
