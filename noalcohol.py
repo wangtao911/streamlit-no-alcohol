@@ -105,6 +105,7 @@ for row in rows:
     #st.text(row[1])
     alcohol_harm_list.append(row[1])
 
+#sss
 
 # 准备触发原因列表
 #st.text('准备触发原因列表')
